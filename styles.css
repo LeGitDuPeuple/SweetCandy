@@ -81,13 +81,14 @@ li {
 
 #nav3 ul {
   display: flex;
+  text-align: center;
 }
 
 #nav3 ul li {
   list-style: none;
   transition: 0.7s;
   cursor: pointer;
-  margin: 10px;
+  margin: 0px;
 }
 
 #nav2 input:focus {
@@ -406,6 +407,7 @@ button {
 .footer_trois_container p,
 .footer_trois_container i {
   font-size: 1.8rem;
+  margin: 10px;
 }
 
 .footer_trois_container i:hover {
@@ -416,6 +418,7 @@ button {
 .footer_trois_container input {
   height: 30px;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .footer_trois_container input::placeholder {
@@ -541,9 +544,51 @@ li {
   }
 }
 
-@media (max-width: 430px) {
-#nav1 i {
+@media (max-width: 450px) {
+
+    #nav1 i{
+margin: 5px;
+font-size: 14px;
+ }
+
+ #nav2 {
+    
+ }
+
+ #nav2 i {
+    font-size: 14px;
     margin: 0;
-    font-size: 5px;
-}
+ }
+
+ #nav2 input {
+    width: 70px;
+    margin: 5px;
+ }
+  .footer_un {
+    display: block;
+    text-align: center;
+  }
+  .footer_deux {
+    display: block;
+    text-align: center;  
+  }
+
+  .footer_deux img {
+  margin: 30px;
+  }
+
+  .footer_trois_container  {
+    display: block;
+    text-align: center;
+
+  
+  }
+  .footer_quatre_container div {
+   margin-bottom: 20px;
+  }
+
+  .footer_quatre_container {
+    display: block;
+    text-align: center;
+  }
 }
