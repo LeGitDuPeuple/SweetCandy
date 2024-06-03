@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #fcf7f7;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  button {
+    background: #fa01ff;
+    color: whitesmoke;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  header {
+      position: relative;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #000;
+    background: linear-gradient(
+      90deg,
+      rgba(250, 1, 255, 1) 24%,
+      rgba(255, 199, 0, 1) 100%
+    );
+  }
+  
+  header nav i,
+  li {
+    color: whitesmoke;
+  }
+  
+  #nav1 {
+    display: flex;
+  }
+  
+  #nav1 i {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 200;
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+  
+  #nav1 i:hover {
+    transform: scale(1.3);
+  }
+  
+  #nav2 {
+    display: flex;
+    align-items: center;
+  }
+  
+  #nav2 i {
+    font-size: 25px;
+    margin: 5px 5px 5px 40px;
+  }
+  
+  #nav2 input {
+    background: #00000000;
+    border: 1px solid whitesmoke;
+    height: 23px;
+    width: 250px;
+    border-radius: 20px;
+  }
+  
+  #nav3 ul {
+    display: flex;
+    text-align: center;
+  }
+  
+  #nav3 ul li {
+    list-style: none;
+    transition: 0.7s;
+    cursor: pointer;
+    margin: 0px;
+  }
+  
+  #nav2 input:focus {
+    outline: none;
+  }
+  
+  #nav3 i {
+    margin: 10px;
+    font-size: 1.3rem;
+  }
+  
+  #nav3 ul li:hover {
+    transform: scale(1.2);
+  }
+  
+  
+  nav a {
+      text-decoration: none;
+  }
+  
+  #sendo {
+      opacity: 0;
+      position: absolute;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo img {
+    height: 200px;
+    width: 200px;
+    background: #fcf7f7;
+    color: #fcf7f7;
+    margin: 20px 0 20px 0;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 40px;
+  }
+  
+  .menu a:hover {
+    color: #fa01ff;
+  
+  }
+
+  .section_un {
+    position: relative;
+  }
+
+  .section_un h1 {
+    font-size: 2.5rem;
+    color:#fa01ff;
+    background: red;
+   margin: 15% 20% 15px 20%;
+    }
+
+    .section_un h1::after {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 1px;
+        background: black;
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+      }
+
+      .section_deux_container {
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+    
+      .section_deux img {
+        height: 100px;
+        width: 100px;
+      }
+
+      .tableau1 {
+        background: red;
+        width: 500px;
+      }
+
+      .section_deux_gauche_un {
+        border: solid 1px black;
+      }
+      
+      .section_deux_gauche_un ul {
+        display: flex;
+        
+      }
+.section_deux_gauche_deux {
+    display: flex;
+}
+
+
+
+
+      .footer_container_un {
+        background: #333333;
+      }
+      
+      .footer_un {
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+      
+      .footer_un img {
+        margin: 10px;
+      }
+      
+      .footer_un::after {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 1px;
+        background: whitesmoke;
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+      }
+      
+      .footer_deux {
+        display: flex;
+        justify-content: center;
+        position: relative;
+      }
+      
+      .footer_deux img {
+        margin: 30px;
+      }
+      
+      .footer_deux::after {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 1px;
+        background: whitesmoke;
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+      }
+      
+      .footer_trois {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+      }
+      
+      .footer_trois_container {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        color: whitesmoke;
+      }
+      
+      .footer_trois_container p,
+      i,
+      input,
+      button {
+        margin: 0 30px;
+      }
+      
+      .footer_trois_container p,
+      .footer_trois_container i {
+        font-size: 1.8rem;
+        margin: 10px;
+      }
+      
+      .footer_trois_container i:hover {
+        cursor: pointer;
+        color: #fa01ff;
+      }
+      
+      .footer_trois_container input {
+        height: 30px;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      
+      .footer_trois_container input::placeholder {
+        color: #333333;
+        text-align: center;
+      }
+      
+      .footer_trois_container button {
+        height: 30px;
+        text-align: center;
+        align-items: center;
+        font-weight: bold;
+      }
+      
+      .footer_trois_container button:hover {
+        background: #0c8ad1;
+        transform: scale(1);
+      }
+      
+      .footer_trois_container button:active {
+        background: #073972;
+      }
+      
+      .footer_quatre_container {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      
+      .footer_quatre_container h4,
+      h5 {
+        color: #fa01ff;
+      }
+      
+      .footer_quatre_container h4,
+      h5,
+      p,
+      li {
+        margin: 10px 0;
+        list-style: none;
+      }
+      
+      .footer_quatre_container p {
+        color: whitesmoke;
+      }
+      
+      .footer_quatre_container li:hover {
+        color: #fa01ff;
+        cursor: pointer;
+      }
+      
+      .footer_container_deux {
+        background: #d9d9d9;
+        min-height: 50px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      #france {
+        height: 60px;
+        height: 60px;
+        margin: 0 20px;
+      }
+      
+      #senegal {
+        height: 50px;
+        width: 50px;
+        margin: 0 20px;
+      }
+      
+      #palestine {
+        height: 42px;
+        width: 42px;
+        margin: 0 20px;
+      }
+      
