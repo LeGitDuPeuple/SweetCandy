@@ -282,8 +282,16 @@ nav a {
   border-radius: 78px;
   transition: 0.7s;
   cursor: pointer;
+  position: relative;
 }
 
+.coeur {
+    color: red;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
 .box-nourriture:hover {
   box-shadow: rgb(176, 174, 174) -1px 5px 5px;
   transform: scale(1.04);
