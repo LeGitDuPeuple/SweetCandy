@@ -237,7 +237,8 @@ h2 {
   color: #fa01ff;
 }
 
-.section_deux_gauche_deux {
+.section_deux_gauche h2{
+  margin: 30.5px;
 }
 .section_deux_gauche_deux_container {
   display: flex;
@@ -315,6 +316,11 @@ h2 {
 .section_deux_gauche_quatre_container button:active {
   background: #073972;
 }
+
+.section_deux_droite h2 {
+ margin: 28px;
+}
+
 .tableau2 {
   width: 300px;
   height: 100px;
@@ -659,4 +665,57 @@ li {
     display: block;
     text-align: center;
   }
+
+  @media (max-width: 380px) {
+    .tableau1 {
+      max-width: 363px;
+     
+    }
+  
+  
+  }
+
+
+  @media (max-width: 370px) {
+    .tableau1 {
+      width: 340px;
+    }
+
+    .tableau2 {
+      width: 340px;
+    }
+    
+    .deux_ul ul li {
+         
+margin-left: 10px;
+    }
+
+    .deux_ul ul li:nth-child(3){
+      margin-left: 30px;
+    }
+    .deux_ul ul li:nth-child(4){
+      
+      margin-left: 20px;
+    }
+    
+
+    .trois_ul ul li {
+         
+      margin-left: 10px;
+          }
+      
+          .trois_ul ul li:nth-child(3){
+            margin-left: 30px;
+          }
+          .trois_ul ul li:nth-child(4){
+            
+            margin-left: 20px;
+          }
+          
+    
+
+    
+  }
+  
+  
 }
